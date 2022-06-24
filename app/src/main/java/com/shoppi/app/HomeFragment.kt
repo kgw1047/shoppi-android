@@ -48,7 +48,6 @@ class HomeFragment: Fragment() {
             GlideApp.with(this)
                 .load(iconUrl)
                 .into(toolbarIcon)
-
         } // jsonObject, Array 를 불러오는 과정
     }
 }
