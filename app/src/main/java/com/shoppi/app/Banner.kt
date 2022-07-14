@@ -8,7 +8,7 @@ data class Banner(
     val label: String,
     @SerializedName("product_detail") val productDetail: ProductDetail
 )
-
+ 
 data class BannerBadge(
     val label: String,
     @SerializedName("background_color") val backgroundColor: String
